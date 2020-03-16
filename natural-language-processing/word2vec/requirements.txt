@@ -1,0 +1,11 @@
+jupyter
+gensim
+pandas
+spacy
+readability-lxml
+beautifulsoup4
+ftfy
+textacy
+nltk
+matplotlib
+seaborn
