@@ -1,3 +1,7 @@
+>**IMPORTANT**: In order follow the instructions below, one must have **python 3** installed.
+
+>**IMPORTANTE**: Para executar as instruções abaixo, tenha **python 3** instalado no seu SO.
+
 # Word2Vec
 
 >**NOTE**: Versão em [Português](#pt) abaixo.
