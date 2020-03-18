@@ -1,6 +1,6 @@
->**IMPORTANT**: In order follow the instructions below, one must have **python 3** installed.
+>**IMPORTANT**: In order follow the instructions below, one must have **python 3** and **pip** installed.
 
->**IMPORTANTE**: Para executar as instruções abaixo, tenha **python 3** instalado no seu SO.
+>**IMPORTANTE**: Para executar as instruções abaixo, tenha **python 3** e **pip** instalado no seu SO.
 
 # Word2Vec
 
@@ -22,12 +22,12 @@ Assuming that you already know how to code in python through a jupyter notebook 
 ### Environment setting
 First, let's install `virtualenv`. With your terminal open inside _word2vec_ notebook's root folder, type:
 ```bash
-pip install virtualenv
+python3 -m pip install virtualenv
 ```
 
 Then, create a new virtual environment and activate it:
 ```bash
-virtualenv venv
+python3 -m virtualenv venv --python=python3.7
 source venv/bin/activate
 ```
 
@@ -46,7 +46,7 @@ source venv/bin/activate
 ### Execute the code
 With everything set, enable jupyter notebook server and execute the code cells. If you don't recall how to do so, on a terminal inside notebook's root folder type:
 ```bash
-jupyter notebook
+PYTHONHASHSEED=1 jupyter notebook
 ```
 
 After that, a new browser window will be opened and you can take from there.
@@ -82,7 +82,7 @@ source venv/bin/activate
 
 Com tudo pronto, habilite o servidor do _jupyter_ e execute as células de código. Se você não se lembra de como fazer isso, em um terminal dentro da pasta raiz do notebook, digite:
 ```bash
-jupyter notebook
+PYTHONHASHSEED=1 jupyter notebook
 ```
 
 Depois disso, uma nova janela do navegador será aberta e você poderá partir dali.
