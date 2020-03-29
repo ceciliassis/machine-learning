@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 #### Reload virtualenv
-Sometimes, after installing the dependecies jupyter notebook doesn't find the modules. In that case all you need to do is reactivate the virtualenv inside the root folder, just like this:
+Sometimes, after installing the dependencies jupyter notebook doesn't find the modules. In that case all you need to do is reactivate the virtualenv inside the root folder, just like this:
 ```bash
 source venv/bin/activate
 ```
@@ -49,7 +49,7 @@ With everything set, enable jupyter notebook server and execute the code cells. 
 PYTHONHASHSEED=1 jupyter notebook
 ```
 
-After that, a new browser window will be opened and you can take from there.
+Here we are forcing a SEED to reproduce random results. After that, a new browser window will be opened and you can take from there.
 
 --------------------
 ##### \[PT\]
@@ -85,4 +85,4 @@ Com tudo pronto, habilite o servidor do _jupyter_ e execute as células de códi
 PYTHONHASHSEED=1 jupyter notebook
 ```
 
-Depois disso, uma nova janela do navegador será aberta e você poderá partir dali.
+Aqui estamos forçando uma semente randômico para conseguirmos reproduzir os resultados. Depois disso, uma nova janela do navegador será aberta e você poderá partir dali.
